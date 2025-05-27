@@ -91,6 +91,7 @@ To address this:
 
 - The scraper skips leagues without valid player stats.
 - Validation and cleaning steps ensure the output remains consistent.
+- We added a failed, but a good version of a TransfrMarkt scraper that works just fine, but doesn't support many requests
 
 ---
 
