@@ -66,7 +66,7 @@ The final CSV file contains over **35,000 records** with the following key colum
 
 ### 1. 🌐 Request Limiting & Anti-Bot Measures
 
-FBRef,TransfrMarkt, Sofascore and basically any other football statistics website implements request throttling and basic bot detection. To mitigate this, weneeded to find a website that structures well the statistics in order to do as few as possible requests and also:
+TransfrMarkt, Sofascore, Flashscore, Fbref and basically any other football statistics website implements request throttling and basic bot detection. To mitigate this, weneeded to find a website that structures well the statistics in order to do as few as possible requests and also:
 
 - A **headless browser** setup was used instead of direct HTTP requests.
 - **Custom user-agent headers** and **delays** (`time.sleep`) between requests were introduced.
