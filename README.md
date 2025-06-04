@@ -2,6 +2,10 @@
 
 This project scrapes detailed player statistics from domestic football leagues around the world using [FBRef](https://fbref.com). The scraper is built using Selenium and BeautifulSoup, and it compiles data into a structured CSV dataset of over **35,000 players** across multiple tiers and leagues.
 
+The date of the dataset is 28.05.2025.
+
+Team Members: Agoci Roberto, Bledea Christian, Brezovan Denis, Manolache Alexandru.
+
 ---
 
 ## 📌 Features
