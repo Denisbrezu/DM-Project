@@ -202,9 +202,10 @@ def scrape_fbref_players_selenium(league_url, league_name):
         driver.get(league_url)
         time.sleep(5)  # Wait for page to fully load
 
-        # Get page source and ensure proper encoding
-        page_source = driver.page_source.encode('utf-8').decode('utf-8')
-        soup = BeautifulSoup(page_source, 'html.parser', from_encoding='utf-8')
+        # Get page source - no need for explicit encoding since Selenium handles it
+        page_source = driver.page_source
+        # Create BeautifulSoup object without specifying from_encoding
+        soup = BeautifulSoup(page_source, 'html.parser')
         driver.quit()
 
         # Find the main player stats table
